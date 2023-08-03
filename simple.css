@@ -1,0 +1,296 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif ;
+}
+body{
+    padding: 20px;
+}
+
+.header{
+    top: 0;
+    left: 0;
+    padding: 40px 10px;
+    position: fixed;
+   
+    z-index: 10000;
+    transition: 0.6s;
+    width: 100%;
+}
+
+.header-wrp{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header.sticky .header{
+    /* padding: 5px 100px; */
+    background: #fff;
+}   
+
+header.sticky .header nav ul li a{
+    color: black;
+}
+header.sticky .header .logo .dark{
+   
+}
+@media (max-width: 1214px) {
+    nav {
+      display: none;
+    }
+     .header .btn {
+      display: none;
+    }
+  
+    .header .icon .none{
+      display: none;
+    }
+  
+    header .icon .block{
+      display: block;
+      font-size: 30px;
+      color: #fff;
+    }
+  
+  }
+  
+
+.header nav ul{
+    margin: 0;
+    gap: 15px;
+}
+.header nav ul li{
+    list-style: none;
+    /* padding: 19px;
+    margin-top: 20px; */
+}
+.header nav ul li a{
+    text-decoration: none;
+    color:#fff;
+    font-weight: 700;
+
+}
+
+.header .btn button{
+    background-color: #bb9356;
+    font-size: 15px;
+    padding: 3px;
+    font-weight: 700;
+    color:#fff ;
+    border: none;
+}
+
+.icon .none{
+    color: #fff;
+  }
+  .icon .block{
+    color: #fff;
+  }
+
+
+.banner{
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    background: url(img/glry.jpg);
+    background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+
+}
+
+.banner .btm-img{
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    height: 13px;
+    width: 124px;
+    z-index: 3;
+    margin-left: -62px;
+    background: url(img/mini.jpg);
+}
+
+.banner-bg{
+    position: absolute;
+    background-color:rgba(34, 34, 34, 0.80);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+
+}
+
+.banner .bn-title{
+    position: absolute;
+    text-align: center;
+    top: 60%;
+    left: 50%;
+    z-index: 3;
+    transform: translate(-50%, 0);
+
+}
+
+.banner .bn-title h6{
+    color:#bb9356; 
+    font-size:50px ;
+    font-family: 'Ruthie', cursive;
+    font-weight:400 ;
+    line-height: 1;
+    z-index: 1;
+}
+
+.banner .bn-title h1{
+    font-size:45px ;
+    font-weight: 700;
+    line-height:1 ;
+    color: #fff;
+    z-index: 1;
+    font-family: 'Abril Fatface', cursive;
+}
+
+header .sticky ul li a{
+    color: #000;
+}
+header.sticky .logo img{
+    background: #000;
+}
+
+#simple-menu .simple{
+    padding-top: 110px;
+    padding-bottom: 110px;
+    overflow: hidden;
+    left: 50%;
+    top: 50%;
+}
+
+
+.simple .heading{
+    text-align: center !important;
+    margin-bottom: 50px !important;
+}
+
+
+.simple .heading .subtitle{
+    color: #bb9356;
+    font-family: 'Ruthie', cursive;
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 1;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+}
+
+.simple .heading .title{
+    font-family: 'Abril Fatface', cursive;
+    color: #222222;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 1;
+    margin-bottom: 25px;
+}
+
+.simple .heading .desc{
+    font-family: 'Poppins', sans-serif;
+    color: #a5a5a5;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 0;
+    padding: 0 40px;
+}
+
+
+
+
+
+
+
+
+.footer{
+    width: 100%;
+    background: #222222;
+    margin-top: 70px;
+
+    
+    
+}
+.footer .container{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-around;
+
+
+}.footer .top{
+    padding : 50px 0;
+}
+ 
+.top .said1 h6{
+    color:#fff;
+    font-weight: 700;
+    padding-left: 100px;
+    margin-bottom: 30px;
+}
+
+.top .said1 .icons i{
+    color: #fff;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+    margin-right: 10px;
+    background-color:#1c1c1c;
+    
+}
+.top .said1 .icons  i:hover{
+    background-color: #bb9356;
+}
+
+.said2 img{
+   margin-bottom: 30px;
+}
+
+.said2 p{
+   font-size:13px ;
+   font-weight: 400;
+   color: #a5a5a5;
+}
+
+.said3 h6{
+   font-size: 15px;
+   font-weight: 600px;
+   color: #fff;
+   margin-bottom: 30px;
+}
+
+.said3 .form-control{
+   box-shadow: none;
+   border: none;
+   background-color: #1c1c1c;
+   color: #474747;
+   line-height: 42;
+   height: 42px;
+   width: 270px;
+   font-style: italic;
+   margin-left: 50px;
+   position: relative;
+    border-radius: 2px;
+
+}
+
+.footer .bootom{
+
+    position: relative;
+    padding: 42px 0;
+    background: #1b1b1b;
+}
+.footer .bootom p{
+    color: #a5a5a5;
+    font-weight: 400;
+}
+.footer .bootom h6{
+    color: #a5a5a5;
+    font-weight: 400;
+}

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="accardion.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Ruthie&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <div class="container header-wrp">
+          <div class="logo">
+            <img src="img/img.jpg" alt="" />
+          </div>
+          <nav>
+            <ul class="d-flex">
+              <li><a href="#">HOME</a></li>
+              <li><a href="#">ABOUT</a></li>
+              <li><a href="#">MENU</a></li>
+              <li><a href="book.html">BOOK A TABLE</a></li>
+              <li><a href="#">FEATURES</a></li>
+              <li><a href="#">BLOG</a></li>
+              <li><a href="#">SHOP</a></li>
+              <li><a href="#">ELEMENTS</a></li>
+            </ul>
+          </nav>
+          <div class="btn">
+            <button>BOOK A TABLE</button>
+          </div>
+          <div class="icon">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section>
+      <div class="banner">
+        <div class="bn-title">
+          <h6>Elements</h6>
+          <h1>Accardions & Toggles</h1>
+        </div>
+        <div class="btm-img"></div>
+        <div class="banner-bg"></div>
+      </div>
+    </section>
+    <script type="text/javascript">
+      window.addEventListener("scroll", function () {
+        var header = document.querySelector("header");
+        header.classList.toggle("sticky", window.scrollY > 0);
+      });
+    </script>
+   
+<section id="accor d-flex justify-content-center align-items-center w-50">
+    <div class="accordion " id="accordionExample">
+                    
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Who Is The Owener Of Steak In Restourant
+                          </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Who Is The Owener Of Steak In Restourant
+                          </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Who Is The Owener Of Steak In Restourant
+                          </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                          </div>
+                        </div>
+                      </div>
+
+                
+                
+            
+        
+       
+      </div>
+</section>
+
+   
+    <footer>
+      <div class="footer">
+        <div class="container">
+          <div class="top row">
+            <div class="said1 col-12 col-sm-12 col-md-4">
+              <h6>Follow Us</h6>
+              <div class="icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-linkedin"></i>
+              </div>
+            </div>
+            <div class="said2 text-center col-12 col-sm-12 col-md-4">
+              <img src="img/img.jpg " alt="" />
+              <p>
+                Steak In has the perfect place to enjoy fine food and great
+                cocktails with excellent service, in comfortable atmospheric
+                surroundings. We have a soft dining room, combined with an open
+                kitchen, coffee take out bar.
+              </p>
+            </div>
+            <div class="said3 text-center col-12 col-sm-12 col-md-4">
+              <h6>Newsletter</h6>
+              <input
+                type="email"
+                class="form-control"
+                placeholder="Subscribe Our Newsletter"
+              />
+            </div>
+          </div>
+         
+          
+        </div>
+        
+        <div class="bootom">
+          <div class="container">
+            <div class=" row text-center">
+              <div class="btm-one col-12  col-sm-12 col-md-12">
+                <p>
+                  22 Alnahas Building, Tanta, Egypt - 02 01065370701 -
+                  7oroof@7oroof.com
+                </p>
+              </div>
+             <div class="btm-two col-12 col-sm-12">
+              <h6>© 2017 Steak In, With Love by 7oroof.com</h6>
+             </div>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
